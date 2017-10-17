@@ -3,6 +3,6 @@ describe BlogPost::Create do
     # it always returns Trailblazer::Operation::Result object
     result = BlogPost::Create.() # same as .call()
 
-    expect(result.success?).to be_truthy # => OK
+    expect(result.success?).to be_truthy # => NG
   end
 end
