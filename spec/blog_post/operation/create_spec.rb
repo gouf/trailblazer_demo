@@ -1,7 +1,8 @@
 describe BlogPost::Create do
   it 'operation test' do
-    result = BlogPost::Create.()
-    puts result
-    # => #<Trailblazer::Operation::Result:0x0055eb6bce1b50>
+    # it always returns Trailblazer::Operation::Result object
+    result = BlogPost::Create.() # same as .call()
+
+    expect(result.success?).to be_truthy # => OK
   end
 end
