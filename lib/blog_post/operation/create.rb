@@ -8,7 +8,7 @@ module BlogPost
 
     def hello_world!(options, *)
       puts 'Hello, Trailblazer!'
-      true
+      # true
     end
 
     def how_are_you?(options, *)
