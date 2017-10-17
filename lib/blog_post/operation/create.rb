@@ -9,9 +9,8 @@ module BlogPost
     step :hello_world!
 
     def hello_world!(options, *)
-      # puts method always returns nil.
-      # So, test detects falsy value. (expecting truthy value)
       puts 'Hello, Trailblazer!'
+      true
     end
   end
 end
