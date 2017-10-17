@@ -5,6 +5,7 @@ module BlogPost
     # success method ignores return value
     success :hello_world!
     success :how_are_you?
+    success :enjoy_your_day!
 
     def hello_world!(options, *)
       puts 'Hello, Trailblazer!'
@@ -12,6 +13,10 @@ module BlogPost
 
     def how_are_you?(options, *)
       puts 'How are you?'
+    end
+
+    def enjoy_your_day!(options, *)
+      puts 'Good to hear, have a nice day!'
     end
   end
 end
