@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    declarative (0.0.10)
+    pipetree (0.1.1)
+    trailblazer-operation (0.0.13)
+      declarative
+      pipetree (>= 0.1.1, < 0.2.0)
+      uber
+    uber (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  trailblazer-operation
+
+BUNDLED WITH
+   1.15.4
